@@ -1,5 +1,5 @@
 body {
-  font-family: 'MyCustomFont',"Noto Kufi Arabic", "Poppins", sans-serif !important;
+  font-family: 'Poppins',"Noto Kufi Arabic", "Poppins", sans-serif !important;
   color: black;
   background-color: #d0c416 !important;
   background-position: center;
@@ -125,7 +125,7 @@ section {
   list-style: none;
   text-align: center;
   border-radius: 50px;
-  font-family: 'MyCustomFont';
+  font-family: 'Poppins';
 
 }
 
@@ -174,7 +174,7 @@ section {
   top: -4px;
   z-index: 1;
   color: #dad8d4;
-  font-family: 'MyCustomFont', Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-family: 'Poppins', Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
 .menu .menu-content span {
@@ -203,7 +203,7 @@ section {
 
 .boldinios{
   font-weight: bold;
-  font-family: 'MyCustomFont',"Noto Kufi Arabic", "Poppins", sans-serif !important;
+  font-family: 'Poppins',"Noto Kufi Arabic", "Poppins", sans-serif !important;
 
 }
 

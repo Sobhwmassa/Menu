@@ -10,6 +10,10 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400..700&family=Scheherazade+New:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Gulzar&family=Reem+Kufi:wght@400;500;600;700&family=Noto+Kufi+Arabic:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
   <style>
@@ -21,8 +25,8 @@
       --accent: #d4a857;
 
       --font-en: 'Montserrat', sans-serif;
-      --font-ar-title: 'Gulzar', serif;
-      --font-ar-body: 'Reem Kufi', 'Noto Kufi Arabic', sans-serif;
+      --font-ar-title: 'Gulzar', sans-serif;
+      --font-ar-body: "Scheherazade New", serif;
     }
 
     * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -35,6 +39,8 @@
       color: var(--beige);
       overflow-x: hidden;
     }
+
+
 
     /* ============= COVER (full-screen oven, like PDF page 1) ============= */
     .cover {
@@ -63,7 +69,7 @@
     }
     .cover-ar {
       font-family: var(--font-ar-title);
-      font-size: clamp(3.5rem, 9vw, 8.5rem);
+      font-size: clamp(4.5rem, 13vw, 8.5rem);
       color: var(--beige);
       line-height: 1;
       filter: drop-shadow(0 0 30px rgba(252,250,224,0.35));
@@ -439,6 +445,7 @@
       transition: all 0.3s;
       z-index: 50;
     }
+    
     .back-to-top.visible { opacity: 1; pointer-events: auto; }
     .back-to-top:hover { transform: translateY(-3px); }
 
@@ -458,7 +465,7 @@
 
   <!-- ============= COVER ============= -->
   <section class="cover">
-     <div class="cover-inner" >
+    <div class="cover-inner" >
       <img 
         src="assets/img/logowhite.png" 
         alt="Sobh w Massa Logo" 
@@ -591,9 +598,6 @@
 
   <!-- ============= FOOTER ============= -->
   <footer>
-    <div class="footer-ar">صُبح ومسا</div>
-    <div class="footer-en">Sobh w Massa</div>
-    <div class="footer-since">مطعم لبناني · SINCE 2015</div>
    <!-- <div class="socials">
       <a href="#" aria-label="Facebook">
         <svg viewBox="0 0 24 24" fill="currentColor"><path d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6H16v3h-2c-.55 0-1 .45-1 1v2h3v3h-3v6.95c5.05-.5 9-4.76 9-9.95z"/></svg>
@@ -679,7 +683,7 @@
           { en: "Labneh with Garlic", ar: "لبنة مع توم", price: "$5.00" },
           { en: "Labneh with Vegetables", ar: "لبنة مع خضرا", price: "$6.00" },
           { en: "Labneh with Makdous", ar: "صحن لبنة مع مكدوس", price: "$5.50" },
-          { en: "Labneh Mu3aaza", ar: "لبنة معنزة", price: "$4.00" },
+          { en: "Labneh Mukaazale", ar: "لبنة مكعزلة", price: "$4.00" },
           { en: "Lebanese Local Cheese", ar: "جبنة بلدي", price: "$6.00" },
           { en: "Braided Cheese", ar: "جبنة شلل", price: "$6.50" },
           { en: "Grilled Halloumi Cheese", ar: "حلوم مشوي", price: "$6.00" },
